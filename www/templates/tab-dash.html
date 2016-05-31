@@ -1,0 +1,43 @@
+<ion-view view-title="Home">
+  <ion-content class="padding">
+    <div ng-if="contador > 0">
+      <div ng-repeat="pergunta in perguntas">
+        <div class="panel panel-form">
+          <div class="panel-heading">
+              {{pergunta.pergunta}}
+          </div>
+          <div class="panel-body">
+              <div class="button-bar">
+                  <button name="resposta" class="button resposta_1" value="1" ng-click="responder_pergunta({{pergunta.id_pergunta}}, 1)">1</button>
+                  <button name="resposta" class="button resposta_2" value="2" ng-click="responder_pergunta({{pergunta.id_pergunta}}, 2)">2</button>
+                  <button name="resposta" class="button resposta_3" value="3" ng-click="responder_pergunta({{pergunta.id_pergunta}}, 3)">3</button>
+                  <button name="resposta" class="button resposta_4" value="4" ng-click="responder_pergunta({{pergunta.id_pergunta}}, 4)">4</button>
+                  <button name="resposta" class="button resposta_5" value="5" ng-click="responder_pergunta({{pergunta.id_pergunta}}, 5)">5</button>
+              </div>
+          </div>
+          <div class="panel-footer">
+              Para responder basta clicar em um dos botoes com a resposta<br />
+              Legenda:<br />
+              1 - Muito Ruim | 2 - Ruim | 3 - Neutro | 4 - Bom 5 - Muito Bom
+          </div>
+        </div>
+      </div>
+    </div>
+    <div ng-if="contador == 0">
+
+        <div class="panel panel-form">
+          <div class="panel-heading">
+              Obrigado!
+              <input type="hidden" name="pergunta_id" value="1" />
+          </div>
+          <div class="panel-body">
+              Não existem novas perguntas, assim que forem registradas nós te avisaremos.
+          </div>
+          <div class="panel-footer">
+              
+          </div>
+        </div>
+
+    </div>
+  </ion-content>
+</ion-view>

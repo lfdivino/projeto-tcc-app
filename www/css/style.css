@@ -1,0 +1,128 @@
+/* Empty. Add your own CSS if you like */
+body {
+	background-color: #4682B4;
+}
+
+.home-content {
+	background-color: #4682B4;
+}
+
+.bg-home {
+	margin: 15%;
+}
+
+@media screen and (max-width: 768px) {
+   .title-home {
+		font-size: 72px;
+		color: #FFB713;
+	    text-shadow: #8B6100 2px 2px 0px;
+	    text-align: center;
+	    width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+   .title-home {
+		font-size: 120px;
+		color: #FFB713;
+	    text-shadow: #8B6100 2px 2px 0px;
+	    width: 100%;
+	    text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+   .sub-title-home {
+   		font-size: 18px;
+		color: #fff;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+   .sub-title-home {
+   		font-size: 36px;
+		color: #fff;
+		width: 100%;
+	}
+}
+
+.sub-title-home {
+	color: #fff;
+}
+
+.panel.panel-form, .panel.panel-form .panel-heading, .panel.panel-form .panel-footer {
+    border-radius: 0;
+}
+
+.panel.panel-form {
+    border: 1px solid #e6e6e6;
+}
+
+.panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .panel.panel-form .panel-heading {
+        background: #4682B4 none repeat scroll 0 0;
+        border-bottom: 7px solid #eee;
+        color: #fff;
+        text-align: center;
+        padding: 3%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .panel.panel-form .panel-heading {
+        background: #4682B4 none repeat scroll 0 0;
+        border-bottom: 7px solid #eee;
+        color: #fff;
+        text-align: center;
+        padding: 3%;
+        min-height: 100px;
+        font-size: 28px;
+    }
+}
+
+.panel.panel-form .panel-body {
+    background: #fcfcfc none repeat scroll 0 0;
+    padding: 6%;
+}
+
+.panel.panel-form .panel-footer {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-top: 1px solid #e6e6e6;
+    color: #aaa;
+    padding: 3%;
+}
+
+.resposta_1 {
+    background-color: #7B84AE;
+    color: #ffffff;
+}
+
+.resposta_2 {
+    background-color: #515E91;
+    color: #ffffff;
+}
+
+.resposta_3 {
+    background-color: #303C74;
+    color: #ffffff;
+}
+
+.resposta_4 {
+    background-color: #172457;
+    color: #ffffff;
+}
+
+.resposta_5 {
+    background-color: #07103A;
+    color: #ffffff;
+}
